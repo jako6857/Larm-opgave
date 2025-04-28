@@ -1,1 +1,40 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #d5d5d5;
+}
+
+.logoImg {
+  position: absolute;
+  left: 40%;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navContainer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 15px;
+  padding: 50px 0 0 0;
+  list-style: none;
+}
+
+.navbackground {
+  position: absolute;
+  background-size: cover;
+  width: 98.75%;
+}
+
+.navContainer ul li:hover {
+  color: white;
+  cursor: pointer;
+}
